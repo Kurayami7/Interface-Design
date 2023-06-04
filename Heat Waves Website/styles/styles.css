@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Lemon-Jelly;
+    src: url(../fonts/LemonJellyPersonalUse-dEqR.ttf) format('woff2'), url(../fonts/LemonJellyPersonalUse-dEqR.ttf) format('woff'), url(../fonts/LemonJellyPersonalUse-dEqR.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: Metal-Smith;
+    src: url(../fonts/MetalsmithRegular-p7ylO.otf) format('woff2'),
+    url(../fonts/MetalsmithRegular-p7ylO.otf) format('woff'),
+    url(../fonts/MetalsmithRegular-p7ylO.otf) format('truetype');
+}
+
+@font-face {
+    font-family: Air;
+    src: url(../fonts/AirtravelerspersonaluseBdit-ow59x.otf) format('woff2');
+    src: url(../fonts/AirtravelerspersonaluseBdit-ow59x.otf) format('woff');
+    src: url(../fonts/AirtravelerspersonaluseBdit-ow59x.otf) format('truetype');
+}
+
+body {
+    background: linear-gradient(135deg, #FF6961, rgb(226, 210, 33), rgb(247, 156, 156), rgb(206, 234, 52));
+}
+
+nav ul {
+    background-color: #8989ef;
+    border: 3px solid black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+nav ul li:hover {
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+main h1 {
+    font-family: Lemon-Jelly;
+    font-size: 58px;
+    text-align: center;
+    margin: 14px 0;
+    text-decoration: underline;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    /* flex-basis: 50%; */
+    align-items: center;
+    /* color: #FF6961; */
+    font-size: 30px;
+    /* display: grid; */
+    justify-content: center;
+    font-size: 30px;
+    font-family: Air;
+    margin-bottom: 10vh;
+}
+
+audio {
+    margin: 5vh 0;
+}
+
+section:nth-of-type(1), section:nth-of-type(9) { /* Intro and Outro */
+    color: rgb(54, 99, 45);
+}
+section:nth-of-type(2), section:nth-of-type(4), section:nth-of-type(6), section:nth-of-type(8) { /* Chorus */
+    color: #a53c38;
+    text-shadow: 0.5px 0.5px 0 black;
+}
+section:nth-of-type(3), section:nth-of-type(5) { /* Verse 1 and Verse 2*/
+    /* color: rgb(246, 99, 246); */
+    color: #FF6193;
+    text-shadow: 0.5px 0.5px 0 white;
+    font-style: italic;
+    font-size: 31px;
+}
+
+section:nth-of-type(7) { /* Bridge */ 
+    color: rgb(12, 12, 12);
+    text-shadow: 0.5px 0.5px 0 black;
+}
+
+section em {
+    font-family: Metal-Smith;
+    color: navy;
+}
+
+footer {
+    background-color: #8989ef;
+    border: 3px solid black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #2121bd;
+    /* color: rgb(0, 102, 204); Good color for the future */
+}

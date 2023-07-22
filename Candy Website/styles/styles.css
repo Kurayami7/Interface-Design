@@ -305,6 +305,8 @@ aside table th {
   
   .submit-form {
     display: flex;
+    position: absolute;
+    top: 234%;
   }
   
   .email-input {

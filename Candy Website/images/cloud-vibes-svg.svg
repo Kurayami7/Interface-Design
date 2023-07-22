@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1442.2" height="841.2">
+	<path fill="#FFF" fill-rule="evenodd"
+	      d="M1440 160.1s-151.7-82-414-82c-307.9 0-463.6 112.8-670 151-206.4 38.2-356-31-356-31v642h1440v-680z"/>
+	<path fill="none" stroke="#009FE5" stroke-width="2.2"
+	      d="M637.15 137.38c49.2-136 232.37-198.42 339.16-49.13 135.96 190.04 384.65 334.6 368.93 174.52-10.85-110.4-159.06 157.43 203.83-11.35"
+	      stroke-dasharray="6.6 13.2" stroke-linecap="round"/>
+</svg>

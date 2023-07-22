@@ -1,0 +1,331 @@
+@media (max-width: 925px) and (min-width: 490px) {
+    header img { 
+        margin-left: 1vw;
+        width: 130px;
+    }
+
+    header ul li a {
+        font-size: 12px !important;
+    }
+
+    header {
+        margin-bottom: 30% !important;
+    }
+
+    body {
+        background: green;
+    }
+    
+}
+
+@media (min-width: 0px) and (max-width: 489px) {
+    header img {
+        display: none;
+    }
+    
+    footer {
+        margin-top: 40vh;
+    }
+
+    .titles a {
+        font-size: 2.8em;
+    }
+
+    .titles a:hover {
+        font-size: 2.8em !important;
+    }
+}
+
+@import url('https://fonts.cdnfonts.com/css/dominant-youth');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    font-family: 'Dominant Youth';
+    background: #f3410e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    max-height: 51.2px;
+}
+
+header ul {
+    padding: 1em 0;
+    margin-right: 2vw;
+}
+
+header > a {
+    max-width: 144px;
+    height: 56px;
+}
+
+header a img {
+    width: 165px;
+    position: absolute;
+    left: 1%;
+    top: 1.5%
+}
+
+header ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 2em;
+}
+
+header ul li a:hover {
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header ul li {
+list-style: none;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ferrero-logo {
+    height: 19px;
+    width: 144px;
+    background: url('../images/ferrero\ logo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.logo-items-container {
+    background: #f3410e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1em 2vmin 1.5em;
+}
+
+.footer-svg-container {
+    display: flex;
+    max-width: 100%;
+}
+
+.child-of-logo-items-container > p {
+    margin: 1% auto;
+}
+
+.child-of-logo-items-container {
+    position: relative;
+    margin-left: 15%;
+}
+
+.social-media-icon {
+    width: 3%;
+    cursor: pointer;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.social-media-icon-container {
+    margin-left: -4%;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-control {
+    background: radial-gradient(#fff 5%,#F4E4C1 60%);
+}
+
+.div-control div:before {
+    content: '';
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    top: 7vh;
+    width: 8.1vw;
+    background: no-repeat url('../images/div\ control.svg') 0 0/auto 101%;
+    z-index: 1;
+    height: 653.6px;
+}
+
+.left-content-div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.left-content-section {
+    height: 40%; 
+    width: 80%; 
+    text-align: center;
+    align-items: center;
+    margin-left: 4vw;
+}
+
+.left-content-section h1 {
+    font-size: 3.26111vw;
+    font-family: 'Dominant Youth';
+    font-weight: normal;
+}
+
+.left-content-section h1::before {
+    background: no-repeat url('../images/hearts.svg') 50%/contain;
+    content: '';
+    position: absolute;
+    left: 3vw;
+    top: 32vh;
+    height: 4.44444vw;
+    width: 4.44444vw;
+}
+
+.left-content-section p {
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.showoff-mid {
+    height: 60vh;
+    background: #faf5ed;
+}
+
+.showoff-mid-jr::after {
+    background: no-repeat url('../images/cloud-vibes-svg.svg') top/100% auto;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 110vh;
+    width: 100%;
+    height: 50vh;
+}
+
+.titles {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dominant Youth';
+    font-size: 1.3vw;
+}
+
+.titles a {
+    text-decoration: none;
+    color: #009fe5;
+    margin: 0 0.5em;
+    letter-spacing: -.03ex;
+}
+
+.titles a:hover {
+    color: black;
+    display: block;
+    position: relative;
+    padding: 0 0.2vw;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: -.05ex;
+    font-size: 1.3vw;
+    line-height: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.ingredients-table {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 760px;
+    background-color: #aadaf9;
+    font-size: 1.04em;
+    color: #1e2136;
+    border-radius: 24px 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+aside table tr {
+    border-bottom: 2px solid #fff;
+    line-height: 1.5;
+    padding: 1.75ex 2em;
+    text-align: center;
+}
+
+aside table td {
+    padding: 1.75ex 2em;
+    margin-left: 1em;
+}
+
+aside table th {
+    padding: 1.75ex 2em;
+    margin-left: 1em;
+}
+
+.product-info-div {
+    margin-bottom: 5%;
+}
+
+#ingredients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: -2vh inherit;
+}
+
+#ingredients p {
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    width: 70%;
+    height: 50%;
+    text-align: justify;
+}
+
+#nutritional-values {
+    display: none;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submit-form {
+    display: flex;
+  }
+  
+  .email-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #faf5ed;
+    border: 1px solid white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    padding: 10px 20px;
+    background-color: #009fe5;
+    color: #faf5ed;
+    border: none;
+    cursor: pointer;
+  }

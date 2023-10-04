@@ -8,5 +8,11 @@ The .fig file is specifically for figma enthusiasts.
 # Heat Waves Website
 Note that I have added another folder called Heat Waves Lyrics Website, which is a website to replicate the lyrics of the popular song, Heat Waves - Glass Animals. This is a static site.
 
+## Live Website Demo:
+https://kurayami7.github.io/Interface-Design/Heat%20Waves%20Website/
+
 # Candy - Kinder Bueno Website
 Most recently, I have added another folder called Candy Website, which is another website to promote the sale and brand of 'Kinder', an extremely popular chocolate brand. This is a static site as well.
+
+## Live Website Demo:
+https://kurayami7.github.io/Interface-Design/Candy%20Website/

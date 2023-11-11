@@ -20,3 +20,7 @@ Most recently, I have added another folder called Candy Website, which is anothe
 
 ## Live Website Demo:
 https://kurayami7.github.io/Interface-Design/Candy%20Website/
+
+## Video Demo:
+https://github.com/Kurayami7/Interface-Design/assets/124408792/acdf70bd-3bad-4d2e-a931-6a017dead579
+

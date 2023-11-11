@@ -11,6 +11,10 @@ Note that I have added another folder called Heat Waves Lyrics Website, which is
 ## Live Website Demo:
 https://kurayami7.github.io/Interface-Design/Heat%20Waves%20Website/
 
+## Video Demo:
+https://github.com/Kurayami7/Interface-Design/assets/124408792/e9fe7618-34fb-46ab-aab1-fb1c1d2b9218
+
+
 # Candy - Kinder Bueno Website
 Most recently, I have added another folder called Candy Website, which is another website to promote the sale and brand of 'Kinder', an extremely popular chocolate brand. This is a static site as well.
 
